@@ -1,11 +1,7 @@
 * Contents:
-	+ build.xml - ant build file
+	+ pom.xml - maven pom file
 
-	+ build.number - current build number
-
-	+ src - source folder (follows Maven folder structure)
-
-		+ docs
+	+ src - source folder
 
 		+ main - main sources
 
@@ -25,8 +21,6 @@
 
 			+ resource
 	
-	+ vendor/lib/ - external libraries
-
 	+ target (created by compile tasks and removed by "clean" task) - .class and .jar files
 
 		- shouldn't be on remote repository.
