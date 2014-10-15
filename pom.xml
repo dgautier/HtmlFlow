@@ -19,6 +19,17 @@
   				<source>1.6</source>
   			</configuration>
   		</plugin>
+        <plugin>
+            <groupId>external.atlassian.jgitflow</groupId>
+            <artifactId>jgitflow-maven-plugin</artifactId>
+            <version>1.0-m4.3</version>
+            <configuration>
+                <pushReleases>true</pushReleases>
+                <pushFeatures>true</pushFeatures>
+                <pushHotfixes>true</pushHotfixes>
+                <autoVersionSubmodules>true</autoVersionSubmodules>
+            </configuration>
+        </plugin>
   	</plugins>
   </build>
 </project>
