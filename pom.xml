@@ -24,6 +24,8 @@
             <artifactId>jgitflow-maven-plugin</artifactId>
             <version>1.0-m4.3</version>
             <configuration>
+                <username>${github.login}</username>
+                <password>${github.password}</password>
                 <pushReleases>true</pushReleases>
                 <pushFeatures>true</pushFeatures>
                 <pushHotfixes>true</pushHotfixes>
